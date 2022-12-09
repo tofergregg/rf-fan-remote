@@ -4,4 +4,9 @@ This project started when we moved into our house, which had this Ashby Park 52 
 
 ![Fan and Remote](fan-remote.png)
 
+We also have these two dogs:
 
+
+![Juno and Jupiter](juno-jupiter.png)
+
+Jupiter, the one on the right, eats remote controls.
