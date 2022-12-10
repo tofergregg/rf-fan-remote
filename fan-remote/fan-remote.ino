@@ -31,9 +31,9 @@ struct Button_map button_map[] = {
   { "fan-med", "0000001110011111100010100" },
   { "fan-low", "0000001110011111100010010" },
   { "fan-off", "0000001110011111100010000" },
-  { "fan-light1-on", "0000001110011111100011010" },
-  { "fan-light1-off", "0000001110011111100011100" },
-  { "fan-light2", "0000001110011111100100100" },
+  { "fan-light-on", "0000001110011111100011010" },
+  { "fan-light-off", "0000001110011111100011100" },
+  { "fan-light-color", "0000001110011111100100100" },
   { "power-on", "0000001110011111100000010" },
   { "power-off", "0000001110011111100000100" },
 };
@@ -144,9 +144,9 @@ void mainPage(WiFiClient client) {
   client.println("<p><button class=\"button\" onclick=\"pushButton('fan-med')\">Fan Medium</button></p>");
   client.println("<p><button class=\"button\" onclick=\"pushButton('fan-low')\">Fan Low</button></p>");
   client.println("<p><button class=\"button\" onclick=\"pushButton('fan-off')\">Fan Off</button></p>");
-  client.println("<p><button class=\"button\" onclick=\"pushButton('fan-light1-on')\">Light 1 On</button></p>");
-  client.println("<p><button class=\"button\" onclick=\"pushButton('fan-light1-off')\">Light 1 Off</button></p>");
-  client.println("<p><button class=\"button\" onclick=\"pushButton('fan-light2')\">Light 2</button></p>");
+  client.println("<p><button class=\"button\" onclick=\"pushButton('fan-light-on')\">Light 1 On</button></p>");
+  client.println("<p><button class=\"button\" onclick=\"pushButton('fan-light-off')\">Light 1 Off</button></p>");
+  client.println("<p><button class=\"button\" onclick=\"pushButton('fan-light-color')\">Light 2</button></p>");
   client.println("<p><button class=\"button\" onclick=\"pushButton('power-on')\">Main On</button></p>");
   client.println("<p><button class=\"button\" onclick=\"pushButton('power-off')\">Main Off</button></p>");
   client.println("<script>");
